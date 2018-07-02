@@ -3,9 +3,9 @@ Theme Name: New College Theme Child
 Theme URI: https://github.com/UCF/CREOL-Child-Theme
 Description: A sample child theme to use with any parent theme.
 Author: Raphael Miller for CREOL-UCF
-Author URI: http://www.wpexplorer.com/
+Author URI: https://github.com/UCF/CREOL-Child-Theme
 Template: Colleges-Theme
-Version: 0.1
+Version: 0.2
 */
 
 /* Parent stylesheet are loaded from functions.php (the correct way) not using @import */
