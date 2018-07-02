@@ -1,0 +1,31 @@
+/*
+Theme Name: New College Theme Child
+Theme URI: https://github.com/UCF/CREOL-Child-Theme
+Description: A sample child theme to use with any parent theme.
+Author: Testy Test
+Author URI: http://www.wpexplorer.com/
+Template: Colleges-Theme
+Version: 0.1
+*/
+
+/* Parent stylesheet are loaded from functions.php (the correct way) not using @import */
+
+h1.page-title{
+	display: none;
+}
+
+h3{
+	color: #00A000; !important;
+}
+
+.parallax {
+	/* The image used */
+	/* Set a specific height */
+	height: 500px;
+
+	/* Create the parallax scrolling effect */
+	background: url("../../uploads/2018/04/sebastian-sanabria-vaporwave-711x400.jpg") no-repeat fixed center;
+	background-size: cover;
+}
+
+
