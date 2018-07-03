@@ -5,7 +5,7 @@ Description: A sample child theme to use with any parent theme.
 Author: Raphael Miller for CREOL-UCF
 Author URI: https://github.com/UCF/CREOL-Child-Theme
 Template: Colleges-Theme
-Version: 0.2
+Version: 0.2.1
 */
 
 /* Parent stylesheet are loaded from functions.php (the correct way) not using @import */
