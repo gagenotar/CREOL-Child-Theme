@@ -27,10 +27,4 @@ $path = $uploads['baseurl'];
     </article>
 </div>
 
-<div class="parallax">
-    <script>changeStyle("https://i.imgur.com/dAG7XI9.jpg")</script>
-</div>
-
-<div class="parallax"></div>
-
 <?php get_footer(); ?>
