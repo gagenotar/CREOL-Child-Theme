@@ -120,7 +120,7 @@
                     <h5 class="mb-0">
                         <a data-toggle="collapse" data-parent="#accordianId" href="#visiting-scientists" aria-expanded="true"
                            aria-controls="section2ContentId">
-                            Emeritus Faculty
+                            Visiting Scientists
                         </a>
                     </h5>
                 </div>
@@ -136,7 +136,7 @@
                     <h5 class="mb-0">
                         <a data-toggle="collapse" data-parent="#accordianId" href="#research-staff" aria-expanded="true"
                            aria-controls="section3ContentId">
-                            Joint Faculty
+                            Research Staff
                         </a>
                     </h5>
                 </div>
