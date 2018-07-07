@@ -22,9 +22,16 @@ This theme is developed and tested against WordPress 4.7.3+ and PHP 5.3.x+.
 
 ## Development
 
+### Changelog 
+
+#### 0.2.3 ####
+
+* added new template for People Directory
+* integration with UCF-CREOL Json plugin 
+
 ### Requirements
 
-* Requires UCF-CREOL Theme https://github.com/UCF/CREOL-Theme
+* Requires UCF-Colleges Theme https://github.com/UCF/Colleges-Theme
 
 ### Instructions
 1. Clone the Main-Site-Theme repo into your development environment, within your WordPress installation's themes/ 
