@@ -25,7 +25,7 @@
             </div>
             <div id="coreFacultyContent" class="collapse in" role="tabpanel" aria-labelledby="coreFaculty">
                 <div class="card-block">
-                    <?php do_shortcode('[ucf-creol-people-directory grp_id=1]') ?>
+                    <?php do_shortcode('[ucf-creol-people-directory grp_id=1 show_fields=True]') ?>
                 </div>
             </div>
         </div>
@@ -41,7 +41,7 @@
             </div>
             <div id="emeritus-faculty-content" class="collapse in" role="tabpanel" aria-labelledby="emeritus-faculty">
                 <div class="card-block">
-                    <?php do_shortcode('[ucf-creol-people-directory grp_id=293]') ?>
+                    <?php do_shortcode('[ucf-creol-people-directory grp_id=293 show_fields=True]') ?>
                 </div>
             </div>
         </div>
@@ -57,7 +57,7 @@
             </div>
             <div id="joint-faculty-content" class="collapse in" role="tabpanel" aria-labelledby="emeritus-faculty">
                 <div class="card-block">
-                    <?php do_shortcode('[ucf-creol-people-directory grp_id=2]') ?>
+                    <?php do_shortcode('[ucf-creol-people-directory grp_id=2 show_fields=True]') ?>
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@
             </div>
             <div id="visiting-faculty-content" class="collapse in" role="tabpanel" aria-labelledby="emeritus-faculty">
                 <div class="card-block">
-                    <?php do_shortcode('[ucf-creol-people-directory grp_id=557]') ?>
+                    <?php do_shortcode('[ucf-creol-people-directory grp_id=557 show_fields=True]') ?>
                 </div>
             </div>
         </div>
@@ -89,7 +89,7 @@
             </div>
             <div id="courtesy-faculty-content" class="collapse in" role="tabpanel" aria-labelledby="emeritus-faculty">
                 <div class="card-block">
-                    <?php do_shortcode('[ucf-creol-people-directory grp_id=292]') ?>
+                    <?php do_shortcode('[ucf-creol-people-directory grp_id=292 show_fields=True]') ?>
                 </div>
             </div>
         </div>
@@ -110,7 +110,7 @@
                 </div>
                 <div id="research-scientists" class="collapse in" role="tabpanel" aria-labelledby="coreFaculty">
                     <div class="card-block">
-                        <?php do_shortcode('[ucf-creol-people-directory grp_id=3]') ?>
+                        <?php do_shortcode('[ucf-creol-people-directory grp_id=3 show_fields=True]') ?>
                     </div>
                 </div>
             </div>
@@ -126,7 +126,7 @@
                 </div>
                 <div id="visiting-scientists" class="collapse in" role="tabpanel" aria-labelledby="emeritus-faculty">
                     <div class="card-block">
-                        <?php do_shortcode('[ucf-creol-people-directory grp_id=559]') ?>
+                        <?php do_shortcode('[ucf-creol-people-directory grp_id=559 show_fields=True]') ?>
                     </div>
                 </div>
             </div>
@@ -142,7 +142,7 @@
                 </div>
                 <div id="research-staff" class="collapse in" role="tabpanel" aria-labelledby="emeritus-faculty">
                     <div class="card-block">
-                        <?php do_shortcode('[ucf-creol-people-directory grp_id=558]') ?>
+                        <?php do_shortcode('[ucf-creol-people-directory grp_id=558 show_fields=True]') ?>
                     </div>
                 </div>
             </div>
@@ -163,7 +163,7 @@
                 </div>
                 <div id="graduate-students" class="collapse in" role="tabpanel" aria-labelledby="coreFaculty">
                     <div class="card-block">
-                        <?php do_shortcode('[ucf-creol-people-directory grp_id=5]') ?>
+                        <?php do_shortcode('[ucf-creol-people-directory grp_id=5 show_fields=True]') ?>
                     </div>
                 </div>
             </div>
@@ -178,7 +178,7 @@
                 </div>
                 <div id="visiting-students" class="collapse in" role="tabpanel" aria-labelledby="emeritus-faculty">
                     <div class="card-block">
-                        <?php do_shortcode('[ucf-creol-people-directory grp_id=520]') ?>
+                        <?php do_shortcode('[ucf-creol-people-directory grp_id=520 show_fields=True]') ?>
                     </div>
                 </div>
             </div>
@@ -199,7 +199,7 @@
                 </div>
                 <div id="admin-staff" class="collapse in" role="tabpanel" aria-labelledby="coreFaculty">
                     <div class="card-block">
-                        <?php do_shortcode('[ucf-creol-people-directory grp_id=4]') ?>
+                        <?php do_shortcode('[ucf-creol-people-directory grp_id=4 show_fields=True]') ?>
                     </div>
                 </div>
             </div>
