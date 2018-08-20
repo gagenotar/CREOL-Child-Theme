@@ -108,3 +108,11 @@ function addnew_query_vars($vars)
     $vars[] = 'c'; // c is the name of variable you want to add
     return $vars;
 }
+
+function json_contnet_importer_wrapper_func( $atts, $content = null ) {
+
+    $content = get_the_content();
+    return $_GET['table'];
+}
+
+add_shortcode( 'jci_wrap', 'json_contnet_importer_wrapper_func' );
