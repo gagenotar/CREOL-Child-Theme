@@ -74,3 +74,37 @@ function generate_parallax($img_url){
           <div class="parallax">Hello</div>';
 
 }
+
+function get_json_info($url_string){
+    echo "
+        <div class='container'>
+        <label><h5>Search Publications</h5></label>
+            <input class=\"form-control\" type=\"text\" placeholder=\"Author\">
+            <select class=\"form-control\">
+                <option>Books</option>
+                <option>Book Chapters</option>
+                <option>Journal Papers</option>
+                <option>Conference Proceedings</option>
+                <option>Other Unreferenced Publications</option>
+                <option>Patents</option>
+                <option>Pending Patents</option>
+                <option>Disclosures</option>
+                <option>Theses or Dissertations</option>
+                <option>Presentations</option>
+                <option>Invited Presentations</option>
+                <option>Plenary Presentations</option>
+                <option>Tutorials</option>
+                <option>Posters</option>
+                <option>Workshops</option>
+                <option>Seminars</option>
+                <option>News Coverage</option>
+            </select>
+        </div>";
+}
+
+add_filter( 'query_vars', 'addnew_query_vars', 10, 1 );
+function addnew_query_vars($vars)
+{
+    $vars[] = 'c'; // c is the name of variable you want to add
+    return $vars;
+}
