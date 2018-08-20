@@ -109,10 +109,31 @@ function addnew_query_vars($vars)
     return $vars;
 }
 
-function json_contnet_importer_wrapper_func( $atts, $content = null ) {
+function json_contnet_importer_wrapper_func( $atts) {
+    $arg_concat = '';
+
+    end($_GET);
+    $last_element = key($_GET);
+
+    foreach ($_GET as $item => $value){
+        if($value == ''){
+            $arg_concat .= $item . '&';
+        }else if($item != $last_element){
+            $arg_concat .= $item . '=' . $value . '&';
+        } else{
+            $arg_concat .= $item . '=' . $value;
+        }
+    }
+
+    //var_dump($_GET);
+    //var_dump($arg_concat);
 
     $content = get_the_content();
-    return $_GET['table'];
+
+    var_dump($content);
+    $short =  "[jsoncontentimporter url=\"https://api.creol.ucf.edu/SqlToJson.aspx?$arg_concat\" basenode=\"response\"]" . $content . "[/jsoncontentimporter]";
+    //var_dump($short);
+    echo do_shortcode($short);
 }
 
 add_shortcode( 'jci_wrap', 'json_contnet_importer_wrapper_func' );
