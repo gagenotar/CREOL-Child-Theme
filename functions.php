@@ -13,8 +13,6 @@
 /**
  * Load the parent style.css file
  *
- * Junk added by Deon
- *
  * @link http://codex.wordpress.org/Child_Themes
  */
 function child_enqueue_parent_theme_style() {
