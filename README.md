@@ -1,7 +1,7 @@
 # CREOL Child Theme
 
 A child theme to supplement the CREOL Theme (Based off Colleges Theme)
-
+some crap
 ## Installation Requirements
 
 This theme is developed and tested against WordPress 4.7.3+ and PHP 5.3.x+.
