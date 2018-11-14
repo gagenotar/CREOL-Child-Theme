@@ -1,31 +1,12 @@
 /**
 *	Theme Name: CREOL Child Theme
 *	Theme URI: https://github.com/UCF/CREOL-Child-Theme
-*	Author: Raphael Miller & Deon Frank for CREOL-UCF
+*	Author: Deon Frank for CREOL-UCF
 *	Author URI: https://github.com/UCF/CREOL-Child-Theme
 *	Template: Colleges-Theme
-*	Version: 0.2.9
+*	Version: 1.0.0
 *   Github Theme URI: https://github.com/UCF/CREOL-Child-Theme
 **/
 
 /* Parent stylesheet are loaded from functions.php (the correct way) not using @import */
-
-h1.page-title{
-	display: none;
-}
-
-.parallax {
-	/* The image used */
-	/* Set a specific height */
-	height: 500px;
-
-	/* Create the parallax scrolling effect */
-	background: url("https://i.redd.it/puiwy51djl711.jpg") no-repeat fixed center;
-	background-size: cover;
-}
-
-a{
-	color: #0a0a0a;
-}
-
 
