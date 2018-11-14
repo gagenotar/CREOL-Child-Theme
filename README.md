@@ -24,15 +24,9 @@ This theme is developed and tested against WordPress 4.7.3+ and PHP 5.3.x+.
 
 ### Changelog 
 
-#### 0.2.4 ####
+#### 1.0.0 ####
 
-* modified text decoration for <a> links 
-* updated people template
-
-#### 0.2.3 ####
-
-* added new template for People Directory
-* integration with UCF-CREOL Json plugin 
+* removed all files and code not needed for current version of website 
 
 ### Requirements
 
