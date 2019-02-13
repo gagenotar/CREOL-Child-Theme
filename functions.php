@@ -25,3 +25,18 @@ function child_enqueue_parent_theme_style() {
 
 }
 add_action( 'wp_enqueue_scripts', 'child_enqueue_parent_theme_style' );
+
+function reenable_unused_templates() {
+    remove_action( 'template_redirect', 'kill_unused_templates' );
+}
+add_action( 'after_setup_theme', 'reenable_unused_templates' );
+
+function creol_kill_unused_templates() {
+    global $wp_query, $post;
+    $enable_feeds = filter_var( get_theme_mod_or_default( 'enable_feeds' ), FILTER_VALIDATE_BOOLEAN );
+    if ( is_author() || is_day() || ( is_feed() && $enable_feeds === false ) ) {
+        wp_redirect( home_url() );
+        exit();
+    }
+}
+add_action( 'template_redirect', 'creol_kill_unused_templates' );
