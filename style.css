@@ -10,3 +10,4 @@
 
 /* Parent stylesheet are loaded from functions.php (the correct way) not using @import */
 
+body.elementor-page-4828 h1.entry-title, .elementor-page-title {display: block !important;}
