@@ -40,3 +40,21 @@ function creol_kill_unused_templates() {
     }
 }
 add_action( 'template_redirect', 'creol_kill_unused_templates' );
+
+/**
+  * Allow Feedzy Pro plugin to link imported  
+  * articles to their original sources
+  *
+  * @author Jonathan Hendricker (Original Author Feedzy Pro)
+  * @since 1.0.2
+  **/
+ add_filter('post_link', function( $url, $id ){
+
+    $feed_url = get_post_meta( $id->ID, 'feedzy_item_url', true );
+
+    if ( !empty( $feed_url) )
+        $url = $feed_url;
+
+    return $url;
+
+}, 99, 2);
